@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    border: 1px solid #a5a1a1;
+    margin-top: 30px;
+}
+.pnc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: teal;
+    padding: 20px;
+    color: white;
+    font-size: 10px;
+}
+img{
+   border: 1px solid #f7f3f3;
+   border-radius: 50%;
+}
+.user_login{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    color: teal;
+}
+.user_name{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: 10px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.user_buttun{
+    display: flex;
+    justify-content: center;  
+    margin-top: 10px;
+}
+button{
+    border: 1px solid teal;
+    color: teal;
+    height: 20px;
+   width: 80%; 
+    border-radius: 20px;  
+    font-size: 10px;
+}
+.question{
+    margin-top: 10px;  
+    font-size: 10px;
+}
+input{ 
+    height: 30px;
+    border: none;
+   border-bottom: 1px solid #6e6c6c;
+   font-size: 10px;
+}
+
